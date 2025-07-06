@@ -53,3 +53,20 @@ SmartStudy-AI is an AI-powered educational platform that delivers personalized l
 4. **Analyze Performance**: View success rates and get personalized advice from the chatbot.
 
 ## Project Structure
+- `app.py`: Main application file
+- `requirements.txt`: Python dependencies
+- `.env`: Environment variables (not tracked)
+- `*.json`: Firebase Admin SDK credentials (not tracked)
+
+## Notes
+- Add to `.gitignore`:
+  ```plaintext
+  *.json
+  .env
+  venv/
+  __pycache__/
+  ```
+- Requires internet for Firebase and Gemini API.
+
+## License
+MIT License
